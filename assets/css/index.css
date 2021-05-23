@@ -1,0 +1,219 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    user-select:none;
+}
+
+.container{
+    position: absolute;
+    width: 100%;
+    height: 900px;
+    background: #111;
+}
+
+.bar{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.box-links-instruments{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    padding: 10px;
+    background: cornsilk;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #000;
+    display: none;
+}
+
+.box-links-instruments a{
+    color: #111;
+    padding: 7px 20px;
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.box-links-instruments a:hover{
+    color: #333;
+    font-size: 1.1em;
+}
+
+.bar:hover{
+    color: #ccc;
+}
+
+.guitar-header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px 50px 0px;
+    color: cornsilk;
+}
+
+.guitar-header-span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main{
+    width: 100%;
+}
+
+.braco{
+    width: 100%;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.b{
+    position: relative;
+    background: #2d1a0c;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+}
+
+.box_casa{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.casa{
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.tr{
+    position: relative;
+    width: 2px;
+    height: 100%;
+    background: darkgray;
+}
+.mark{
+    background: cornsilk;
+}
+
+.box_cordas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.corda{
+    width: 100%;
+    background: rgba(241, 241, 241, 0.959);
+}
+
+.box_notas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background: rgba(0, 0, 0, 0.7); */
+}
+
+.column_notas{
+    width: 100%;
+    display: flex;
+}
+
+.casa_notas{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.casa_notas:hover{
+    background: chartreuse;
+}
+
+.casa_notas:active{
+    background: crimson;
+}
+ 
+.nota-boll{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: #72b01d;
+}
+
+.nota-ret{
+    width: 20px;
+    height: 100%;
+    background: #72b01d;
+}
+
+.controll{
+    width: 100%;
+    padding: 10px ;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box-display{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title-controll{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.title-controll:hover{
+    color: #ccc;
+}
+
+.casaCount{
+    position: absolute;
+    top: -25px;
+    color: cornsilk;
+}
+
+.a{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: none;
+}
+
+.n{
+    color: #fff;
+    padding: 7px 20px;
+}
+
+.n:hover{
+    background: cornsilk;
+    color: #111;
+    font-weight: bold;
+    cursor: pointer;
+}
