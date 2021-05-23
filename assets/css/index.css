@@ -69,13 +69,20 @@
 
 .main{
     width: 100%;
+    
+}
+
+.main-2{
+    width: 100%;
+    overflow: auto;
 }
 
 .braco{
-    width: 100%;
+    width: 1100px;
     padding: 30px 0px;
     display: flex;
     justify-content: center;
+    
 }
 
 .b{
