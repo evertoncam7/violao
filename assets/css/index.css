@@ -227,3 +227,21 @@
     font-weight: bold;
     cursor: pointer;
 }
+
+
+
+/* MODO CULULAR */
+
+@media(max-width: 500px){
+    .guitar-header-span h1{
+        font-size: 0.8em;
+    }
+
+    .guitar-header-span p{
+        font-size: 0.6em;
+    }
+
+    .bar{
+        font-size: 0.7em;
+    }
+}
