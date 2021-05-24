@@ -1,11 +1,11 @@
 
 const bd = [
-    {id:1, acorde:'C', notas:[
+    {id:1, acorde:'C',scrollEl:370 ,notas:[
         {position:'51', pointer:'boll'},
         {position:'32', pointer:'boll'},
         {position:'23', pointer:'boll'}
     ]},
-    {id:2, acorde:'D', notas:[
+    {id:2, acorde:'D', scrollEl:115, notas:[
         {position:'65', pointer:'ret'},
         {position:'55', pointer:'ret'},
         {position:'45', pointer:'ret'},

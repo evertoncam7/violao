@@ -40,8 +40,6 @@ function acordes(element){
         n.innerHTML = item;
         n.addEventListener("click", function(){
 
-            
-
             oldStatus.map(function (value, index){
 
                 console.log(value);
@@ -58,8 +56,6 @@ function acordes(element){
 
             if (filter.length) {
 
-                $(".casa_notas").css({'background':'none'})
-
                 filter[0].notas.map((value, index) => {
                     
                     const id = value.position;
@@ -73,10 +69,20 @@ function acordes(element){
                         }
                         nb.setAttribute("id", "n-"+id);
 
+                        nb.addEventListener("click", function(){
+                            
+                            console.log(filter[0]);
+                            
+                        });
+
                     document.getElementById(id).appendChild(nb);
 
                 });
             }
+
+            const elMain = document.getElementById("main-2-id");
+            elMain.scrollLeft = filter[0].scrollEl;
+          
 
         })
         a.appendChild(n);
