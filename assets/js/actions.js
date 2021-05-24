@@ -41,8 +41,6 @@ function acordes(element){
         n.addEventListener("click", function(){
 
             oldStatus.map(function (value, index){
-
-                console.log(value);
                     
                 $("#n-"+value).remove();
 
@@ -70,8 +68,7 @@ function acordes(element){
                         nb.setAttribute("id", "n-"+id);
 
                         nb.addEventListener("click", function(){
-                            
-                            console.log(filter[0]);
+                        
                             
                         });
 
@@ -82,7 +79,6 @@ function acordes(element){
 
             const elMain = document.getElementById("main-2-id");
             elMain.scrollLeft = filter[0].scrollEl;
-          
 
         })
         a.appendChild(n);
