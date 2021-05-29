@@ -74,9 +74,6 @@
 
 .main-2{
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     overflow: auto;
 }
 
@@ -234,7 +231,7 @@
 
 @media(max-width: 500px){
     .guitar-header-span h1{
-        font-size: 0.9em;
+        font-size: 1em;
     }
 
     .guitar-header-span p{
